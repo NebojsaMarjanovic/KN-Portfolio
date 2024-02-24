@@ -1,7 +1,7 @@
 {
   "homepage": "http://NebojsaMarjanovic.github.io/KN-Portfolio",
   "name": "kristijan-nikolic-portfolio",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
