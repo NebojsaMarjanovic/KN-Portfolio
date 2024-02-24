@@ -8,14 +8,14 @@ function SegmentNavigationBar() {
       <div className="secondary-nav">
       <Link
           to={{
-          pathname: "KN-Portfolio/witcher",
+          pathname: "/witcher",
         }}
         >
           Witcher
         </Link>
         <Link
           to={{
-          pathname: "KN-Portfolio/sword",
+          pathname: "/sword",
           
         }}
         >
@@ -23,14 +23,14 @@ function SegmentNavigationBar() {
         </Link>
         <Link
           to={{
-          pathname: "KN-Portfolio/cake",
+          pathname: "/cake",
         }}
         >
           Cake
         </Link>
         <Link
           to={{
-          pathname: "KN-Portfolio/drake",
+          pathname: "/drake",
         }}
         >
           Dragon

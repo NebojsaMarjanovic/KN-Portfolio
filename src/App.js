@@ -1,7 +1,7 @@
 import './App.css';
 import HomePageCard from './components/HomePageCard';
 import NavigationBar from './components/NavigationBar';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import SegmentCard from './components/SegmentCard';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
     ]; 
 
   return (
-    <BrowserRouter basename="KN-Portfolio">
+    <HashRouter>
     <div className="App">
     <NavigationBar/>
       <Routes>
@@ -86,7 +86,7 @@ function App() {
         />
       </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
