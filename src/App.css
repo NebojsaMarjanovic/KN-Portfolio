@@ -128,3 +128,38 @@ body {
   justify-content: space-between;
   margin-top: 50px;
 }
+
+/* AboutMe.css */
+
+.about-me-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-me-content {
+  text-align: left;
+}
+
+.about-me-paragraph {
+  font-size: 18px; /* Increased font size */
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px; /* Increased font size */
+  display: inline-block; /* Keep the button on the same line as the text */
+}
+
+.download-button:hover {
+  background-color: #2980b9;
+}
+

@@ -3,6 +3,7 @@ import HomePageCard from './components/HomePageCard';
 import NavigationBar from './components/NavigationBar';
 import { HashRouter, Routes, Route} from "react-router-dom";
 import SegmentCard from './components/SegmentCard';
+import AboutMeCard from './components/AboutMeCard';
 
 function App() {
 
@@ -41,6 +42,14 @@ function App() {
       element={
         <>
         <HomePageCard images={[...witcherImages, ...swordImages, ...cakeImages, ...drakeImages]}/>
+        </>
+      }
+        />
+         <Route
+      path="/aboutme"
+      element={
+        <>
+        <AboutMeCard/>
         </>
       }
         />
