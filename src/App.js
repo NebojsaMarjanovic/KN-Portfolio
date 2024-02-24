@@ -32,12 +32,12 @@ function App() {
     ]; 
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="KN-Portfolio">
     <div className="App">
     <NavigationBar/>
       <Routes>
       <Route
-      path="KN-Portfolio"
+      path=""
       element={
         <>
         <HomePageCard images={[...witcherImages, ...swordImages, ...cakeImages, ...drakeImages]}/>
