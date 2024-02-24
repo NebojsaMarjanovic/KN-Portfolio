@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 function HomePageCard(images){
 const navigate = useNavigate();
 const segments = [
-  { name: 1, imageUrl: './img/witcher.jpg' },
-  { name: 2, imageUrl: './img/sword.jpg' },
-  { name: 3, imageUrl: './img/kratos.jpg' },
-  { name: 4, imageUrl: './img/drake.jpg' }
+  { name: 1, imageUrl: '../img/witcher.jpg' },
+  { name: 2, imageUrl: '../img/sword.jpg' },
+  { name: 3, imageUrl: '../img/kratos.jpg' },
+  { name: 4, imageUrl: '../img/drake.jpg' }
 ];
 
 const handleImageClick = (segmentName) => {
