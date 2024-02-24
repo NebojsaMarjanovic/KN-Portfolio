@@ -37,7 +37,7 @@ function App() {
     <NavigationBar/>
       <Routes>
       <Route
-      path=""
+      path="KN-Portfolio"
       element={
         <>
         <HomePageCard images={[...witcherImages, ...swordImages, ...cakeImages, ...drakeImages]}/>
